@@ -10,3 +10,8 @@ export interface IBeneficiary {
     beneficiaryId: string,
     beneficiaryType: BeneficiaryType
 }
+
+export interface IHealthBenefits {
+    employeePerPaycheckSalary:number,
+    beneficiaries:IBeneficiary[],
+}
